@@ -1,0 +1,16 @@
+{
+  "name": "transact-sdk-javascript",
+  "version": "0.1.0",
+  "author": "",
+  "description": "An SDK for interacting with Hyperledger Transact.",
+  "keywords": [
+    "hyperledger",
+    "blockchain",
+    "signing",
+    "crypto",
+    "protobuf"
+  ],
+  "homepage": "https://www.hyperledger.org/projects/transact",
+  "repository": "https://github.com/hyperledger/transact-sdk-javascript.git",
+  "license": "Apache-2.0"
+}
