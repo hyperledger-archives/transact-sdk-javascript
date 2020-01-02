@@ -14,6 +14,7 @@
   "repository": "https://github.com/hyperledger/transact-sdk-javascript.git",
   "license": "Apache-2.0",
   "scripts": {
+    "format": "prettier --write \"**/*.+(ts|*rc|json|js)\"",
     "lint": "eslint src/**/**/**/*"
   },
   "devDependencies": {
@@ -23,6 +24,7 @@
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.9.0",
     "eslint-plugin-import": "^2.19.1",
-    "eslint-plugin-prettier": "^3.1.2"
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
   }
 }
