@@ -14,15 +14,4 @@
  * limitations under the License.
  */
 
-export { MissingFieldError, TransactionBuildError } from './errors';
 export { default as TransactionBuilder } from './transactionBuilder';
-
-export {
-  TransactionBuilder as SabreTransactionBuilder
-} from '../../sabre/transaction';
-
-export interface Contract {
-  name: string;
-  version: string;
-  prefix: string;
-}
