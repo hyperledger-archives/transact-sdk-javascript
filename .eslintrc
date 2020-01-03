@@ -17,12 +17,11 @@
     "ecmaVersion": 2020
   },
   "rules": {
-    "import/no-default-export": 2,
-    "import/prefer-default-export": 0
+    "import/prefer-default-export": 0,
+    "@typescript-eslint/interface-name-prefix": 0
   },
   "extends": [
     "plugin:@typescript-eslint/recommended",
-    "airbnb",
     "plugin:prettier/recommended"
   ]
 }
