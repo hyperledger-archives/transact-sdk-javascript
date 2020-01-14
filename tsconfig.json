@@ -4,7 +4,7 @@
     "esModuleInterop": true,
     "declaration": true,
     "resolveJsonModule": true,
-    "allowJs": true
+    "outDir": "dist"
   },
   "exclude": ["node_modules", "**/*.spec.ts"],
   "include": ["src/**/*"]
