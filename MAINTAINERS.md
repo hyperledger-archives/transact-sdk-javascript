@@ -4,6 +4,7 @@
 | Name | GitHub | RocketChat |
 | --- | --- | --- |
 | Andi Gunderson | agunde406 | agunde |
+| Davey Newhall | dnewh | newhall |
 | Eloá Franca Verona | eloaverona | eloafran |
 | James Mitchell | jsmitchell | jsmitchell |
 | Logan Seeley | ltseeley | ltseeley |
