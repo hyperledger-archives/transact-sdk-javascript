@@ -10,11 +10,16 @@
     "crypto",
     "protobuf"
   ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
   "homepage": "https://www.hyperledger.org/projects/transact",
   "repository": "https://github.com/hyperledger/transact-sdk-javascript.git",
   "license": "Apache-2.0",
   "scripts": {
-    "postinstall": "npm run generate-proto-files",
+    "prepublishOnly": "tsc; node scripts/compile_protobuf.build.js ./protos",
     "format": "prettier --write \"**/*.+(ts|*rc|json|js)\"",
     "lint": "eslint src/**/**/**/*",
     "test": "jest",

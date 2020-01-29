@@ -18,8 +18,8 @@ export { MissingFieldError, TransactionBuildError } from './errors';
 export { default as TransactionBuilder } from './transactionBuilder';
 
 export {
-  TransactionBuilder as SabreTransactionBuilder
-} from '../../sabre/transaction';
+  SabreTransactionBuilder
+} from '../../sabre';
 
 export interface Contract {
   name: string;
