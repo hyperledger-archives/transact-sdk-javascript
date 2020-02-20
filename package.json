@@ -19,7 +19,7 @@
   "repository": "https://github.com/hyperledger/transact-sdk-javascript.git",
   "license": "Apache-2.0",
   "scripts": {
-    "prepublishOnly": "tsc; node scripts/compile_protobuf.build.js ./protos",
+    "prepare": "tsc; node scripts/compile_protobuf.build.js ./protos",
     "format": "prettier --write \"**/*.+(ts|*rc|json|js)\"",
     "lint": "eslint src/**/**/**/*",
     "test": "jest",
