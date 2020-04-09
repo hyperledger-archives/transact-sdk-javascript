@@ -23,7 +23,7 @@ import {
 import { Signer } from '../signing/secp256k1';
 import { MissingFieldError } from './errors';
 
-export class BatchBuilder {
+export default class BatchBuilder {
   transactions: Transaction[];
 
   trace: boolean;
