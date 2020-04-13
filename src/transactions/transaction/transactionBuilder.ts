@@ -61,7 +61,7 @@ export default class TransactionBuilder {
     return this;
   }
 
-  withFamilyVersion(self, familyVersion: string): TransactionBuilder {
+  withFamilyVersion(familyVersion: string): TransactionBuilder {
     this.familyVersion = familyVersion;
     return this;
   }
