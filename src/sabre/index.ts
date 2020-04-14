@@ -18,4 +18,4 @@ export { TransactionBuilder as SabreTransactionBuilder } from './transaction';
 // The Sawtooth Sabre transaction family name (sabre)
 export const SABRE_FAMILY_NAME = 'sabre';
 // The Sawtooth Sabre transaction family version (0.4)
-export const SABRE_FAMILY_VERSION = '0.4';
+export const SABRE_FAMILY_VERSION = '0.5';
