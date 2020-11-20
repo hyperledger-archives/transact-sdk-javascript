@@ -1,5 +1,5 @@
 {
-  "name": "transact-sdk-javascript",
+  "name": "transact-sdk",
   "version": "0.1.1",
   "author": "",
   "description": "An SDK for interacting with Hyperledger Transact.",
